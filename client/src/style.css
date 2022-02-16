@@ -1,0 +1,20 @@
+body {
+    background-color: rebeccapurple;
+  }
+
+h1, h2 {
+  color: goldenrod;
+}
+
+input {
+  background-color: aliceblue;
+}
+
+nav {
+  height: 45px;
+  width: 100%;
+  background-color: rgb(190, 157, 221);
+  position: auto;
+  padding-bottom: 20 px;
+  top: 0;
+}
