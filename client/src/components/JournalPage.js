@@ -29,7 +29,7 @@ class JournalPage extends Component {
     
     return (
       <div className="Journal Page container">
-          <h1 style={{paddingBottom: "30px", paddingTop: "10px"}}>Moonchild Journal</h1>
+          <h1 style={{paddingBottom: "30px", paddingTop: "10px"}}>Penny for your thoughts?</h1>
           <JournalForm handleSubmit={this.handleSubmit}/>
           <Entries entryData={entries} removeEntry={this.removeEntry}/>
       </div>
