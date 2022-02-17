@@ -44,5 +44,4 @@ const NavList = styled.nav`
   text-align: center;
   display: inline-block;
   opacity: 0.75;
-  
 `
