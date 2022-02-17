@@ -18,6 +18,14 @@ export default function Home() {
   )
 }
 
-const Welcome=styled.div`
-    margin-left: 150px
-`
+const Welcome = styled.div`
+  border: 5px solid goldenrod;
+  border-radius: 40px;
+  height: 50%;
+  width: 50%;
+  padding: 75px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 15px black;
+`;

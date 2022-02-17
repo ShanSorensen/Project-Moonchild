@@ -1,12 +1,13 @@
 body {
-    background-color: rebeccapurple;
+    background-color: rgba(150, 123, 182, 1);
+    height: 100vh;
   }
 
 h1, h2 {
   color: goldenrod;
 }
 
-input {
+Input {
   background-color: aliceblue;
 }
 
@@ -16,5 +17,19 @@ nav {
   background-color: rgb(190, 157, 221);
   position: auto;
   padding-bottom: 20 px;
+  padding-top: 20 px;
   top: 0;
+  margin-top: 5 px;
+}
+
+h2 {
+  margin-left: 150px;
+  
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

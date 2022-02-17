@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Button, FormGroup, Input, Label } from 'reactstrap'
+import styled from 'styled-components'
 
 class JournalForm extends Component {
   constructor(props) {
@@ -30,7 +31,7 @@ class JournalForm extends Component {
       const {title, body } = this.state;
 
       return (
-          <div>
+          <JournalFormContainer>
               <form>
                   <FormGroup>
                     <Label>Title</Label>
@@ -54,9 +55,19 @@ class JournalForm extends Component {
                   </FormGroup>
               </form>
               <Button color="warning" onClick={this.submitForm}>Submit</Button>
-          </div>
+          </JournalFormContainer>
       )
   }
 }
 
 export default JournalForm;
+
+const JournalFormContainer = styled.div`
+  border: solid 5px goldenrod;
+  border-radius: 40px;
+  height: 50%;
+  width: 50%;
+  padding: 100px;
+  box-shadow: 5px 5px 15px black;
+  
+`;

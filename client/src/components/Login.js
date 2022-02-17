@@ -7,7 +7,7 @@ export default function Login() {
   let navigate = useNavigate();
   
   return (
-    <LoginForm>
+    <LoginContainer>
       <h2>Welcome back, friend!</h2>
       <FormGroup>
       <Label>Username:</Label>
@@ -22,17 +22,26 @@ export default function Login() {
           placeholder="Shh! Keep it secret!"
           type="text"
           name="password"
-          id="username"
+          id="password"
           />
       <Button color="warning"
               onClick={() => {
                 navigate("/journalpage");}}>
           Login</Button>
       </FormGroup>
-    </LoginForm>
+    </LoginContainer>
   )
 }
 
-const LoginForm = styled.div`
-  margin-left: 150px,
-`
+const LoginContainer = styled.div`
+border: solid 5px goldenrod;
+border-radius: 40px;
+height: 50%;
+width: 50%;
+padding: 100px;
+margin-left: 25%;
+margin-top: 100px;
+box-shadow: 5px 5px 15px black;
+margin-left: auto;
+margin-right: auto;
+`;
